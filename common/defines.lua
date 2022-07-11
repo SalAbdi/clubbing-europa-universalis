@@ -1301,7 +1301,7 @@ NMilitary = {
 	ARTILLERY_TIME = 120, 							-- _MDEF_ARTILLERY_TIME = 10,
 	HEAVY_SHIP_TIME = 730, 							-- _MDEF_HEAVY_SHIP_TIME = 10,
 	LIGHT_SHIP_TIME = 365, 							-- _MDEF_LIGHT_SHIP_TIME = 10,
-	GALLEY_TIME = 365, 								-- _MDEF_GALLEY_TIME = 10,
+	GALLEY_TIME = 80, 								-- _MDEF_GALLEY_TIME = 10,
 	TRANSPORT_TIME = 30, 							-- _MDEF_TRANSPORT_TIME = 10,
 	MONTHLY_REINFORCE = 0.1,						-- Amount of regiment strength reinforced each month.
 	MONTHLY_REPAIR = 0.1,							-- Ship repair speed.
