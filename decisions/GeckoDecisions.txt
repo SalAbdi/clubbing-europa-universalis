@@ -1,0 +1,239 @@
+country_decisions = {
+
+	sm_hire_general = {
+			potential = {
+				is_bankrupt = no
+				ai = no
+				NOT = { has_country_flag = sm_hire_general }
+			}
+			allow = {
+				NOT = { army_tradition = 40 }
+			}
+			effect = {
+				add_years_of_income = -0.3
+				create_general = { tradition = 40 }
+				set_country_flag = sm_hire_general
+			}
+		}
+		
+	sm_hire_recruitmaster = {
+			potential = {
+				ai = no
+				NOT = { has_country_flag = sm_hire_recruitmaster }
+			}
+			allow = {
+				ai = no
+			}
+			effect = {
+				add_years_of_income = -0.25
+				define_advisor  = { 
+				type = recruitmaster
+				skill = 2
+				discount = yes
+				culture = variable:new_ruler_culture
+			}	
+				set_country_flag = sm_hire_recruitmaster
+			}
+		}	
+
+	sm_hire_explorer = {	
+		potential = {
+				is_bankrupt = no
+				ai = no
+				#has_institution = new_world_i
+				NOT = { has_country_modifier = hired_explorer }
+			}
+			allow = {
+				#has_institution = new_world_i
+			}
+			effect = {
+				add_years_of_income = -0.1
+				create_explorer = { tradition = 10 }
+				add_country_modifier = {
+				name = "hired_explorer"
+				duration = 1825
+				hidden = yes
+				}
+			}
+		}	
+		
+	sm_hire_conquistador = {	
+		potential = {
+				is_bankrupt = no
+				ai = no
+				#has_institution = new_world_i
+				NOT = { has_country_modifier = hired_conquistador }
+			}
+			allow = {
+				#has_institution = new_world_i
+			}
+			effect = {
+				add_years_of_income = -0.3
+				create_conquistador = { tradition = 0 }
+				add_country_modifier = {
+				name = "hired_conquistador"
+				duration = 1825
+				hidden = yes
+				}
+			}	
+		}
+	free_colonist = {
+		potential = {
+				NOT = {
+					capital_scope = {
+						continent = north_america
+					}
+				}
+				NOT = {
+					capital_scope = {
+						continent = south_america
+					}
+				}
+				NOT = {
+					capital_scope = {
+						continent = asia
+					}
+				}
+				NOT = {
+					capital_scope = {
+						region = ural_region
+					}
+				}
+				NOT = { has_country_modifier = free_colonist}	
+			}
+
+		allow = {
+			NOT = {
+				OR = {
+					capital_scope = { region = australia_region }
+					capital_scope = { region = oceanea_region }
+				}
+			}
+			#has_institution = new_world_i
+			dip_tech = 6
+			was_player = yes
+		}
+		effect = {
+			add_country_modifier = {
+				name = "free_colonist"
+				duration = -1
+			}
+		}
+	}	
+
+	educate_ruler = {
+		major = yes
+		potential = {
+			ai = no
+			NOT = { has_country_flag = educate_ruler_flag }
+			NOT = {
+				government = republic
+			}
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = educate_ruler_tooltip
+				OR = {
+					NOT = {
+						adm = 3
+						dip = 3
+						mil = 3
+					}
+					NOT = {
+						adm = 5
+						dip = 2
+						mil = 2
+					}
+					NOT = {
+						adm = 2
+						dip = 5
+						mil = 2
+					}
+					NOT = {
+						adm = 2
+						dip = 2
+						mil = 5
+					}
+					NOT = {
+						adm = 4
+						dip = 2
+						mil = 3
+					}
+					NOT = {
+						adm = 4
+						dip = 3
+						mil = 2
+					}
+					NOT = {
+						adm = 3
+						dip = 4
+						mil = 2
+					}
+					NOT = {
+						adm = 2
+						dip = 4
+						mil = 3
+					}
+					NOT = {
+						adm = 2
+						dip = 3
+						mil = 4
+					}
+					NOT = {
+						adm = 3
+						dip = 2
+						mil = 4
+					}
+				}
+			}
+		}
+		effect = {
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
+			add_years_of_income = -0.5
+			set_country_flag = educate_ruler_flag
+		}
+	}
+	PR_critical_events = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = PR_radical_reform_decision
+				NOT = { has_country_flag = radical_mercantilist_reforms }
+			}
+			custom_trigger_tooltip = {
+				tooltip = PR_military_reform_decision
+				NOT = { has_country_flag = military_reform }
+			}
+			custom_trigger_tooltip = {
+				tooltip = PR_commandant_decision
+				NOT = { has_country_modifier = commandant_cooldown }
+			}
+			custom_trigger_tooltip = {
+				tooltip = PR_grand_captain_decision
+				NOT = { has_country_modifier = grand_captain_cooldown }
+			}
+			custom_trigger_tooltip = { #ICA 
+				tooltip = GC_infantry_leader_cooldown_tooltip
+				NOT = { has_country_modifier = gc_infantry_leader_cooldown }
+			}
+			custom_trigger_tooltip = { #CCA 
+				tooltip = GC_cavalry_leader_cooldown_tooltip
+				NOT = { has_country_modifier = gc_cavalry_leader_cooldown }
+			}
+			custom_trigger_tooltip = { #ACA 
+				tooltip = GC_arty_officer_cooldown_tooltip
+				NOT = { has_country_modifier = gc_arty_officer_cooldown }
+			}
+			always = no
+		}
+		effect = {
+		}
+	}	

@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = chinese
+religion = confucianism
+primary_culture = xibei
+capital = 689 # Fengyuan
+
+1444.11.11 = {
+	monarch = { 
+		name = "Yunwen"
+		dynasty = "Shun"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
