@@ -933,14 +933,54 @@ VRN_ideas = {
 	}
 }
 
-VEN_ideas = {
+VRN_ideas = {
 	start = {
-		global_sailors_modifier = 0.20
+		infantry_power = 0.1
 		global_trade_power = 0.1
 	}
 	
 	bonus = {
-		galley_power = 0.25
+		light_ship_power = 0.25
+	}
+	
+	trigger = {
+		tag = VRN
+	}
+	free = yes		#will be added at load.
+	
+	VRN_three_households = {
+		republican_tradition = 0.3
+		stability_cost_modifier = -0.15
+	}
+	VRN_fair_verona = {
+		prestige = 1
+	}
+	VRN_ancient_grudge = {
+		rival_border_fort_maintenance = -0.25
+		power_projection_from_insults = 1
+	}
+	VRN_civil_blood_and_civil_hands = {
+		land_morale = 0.15
+	}
+	VRN_ending_the_strife = {
+		improve_relation_modifier = 0.3
+	}
+	VRN_some_shall_be_punished = {
+		yearly_absolutism = 1
+	}
+	VRN_a_tale_of_woe = {
+		light_ship_cost = -0.2
+	}
+}
+
+VEN_ideas = {
+	start = {
+		trade_efficiency = 0.15
+		land_morale = 0.1
+	}
+	
+	bonus = {
+		naval_morale = 0.15
 	}
 	
 	trigger = {
@@ -948,30 +988,28 @@ VEN_ideas = {
 	}
 	free = yes		#will be added at load.
 	
-	venetian_arsenal = {
+	DAL_kingdom_of_dalmatia = {
+		reform_progress_growth = 0.15
+		global_unrest = -1
+	}
+	DAL_principalities = {
+		global_foreign_trade_power = 0.15
+	}
+	DAL_language = {
+		num_accepted_cultures = 2
+	}
+	DAL_art_and_lit = {
+		global_institution_spread = 0.1
+		development_cost = -0.05
+	}
+	DAL_independent_army = {
+		infantry_power = 0.15
+	}
+	DAL_arsenal = {
 		naval_forcelimit_modifier = 0.25
-		galley_cost = -0.20
 	}
-	printing_industry = {
-		diplomats = 1
-	}
-	stato_da_mar = {
-		trade_efficiency = 0.10
-	}
-	state_inquisition = {
-		global_spy_defence = 0.3
-	}
-	conscription = {
-		naval_maintenance_modifier = -0.2
-		sailor_maintenance_modifer = -0.05
-	}
-	defend_the_law = {
-		stability_cost_modifier = -0.1
-		justify_trade_conflict_cost = -0.1
-	}
-	provveditori_ai_beni_inculti = {
-		land_attrition = -0.10
-		naval_attrition = -0.10
+	DAL_illyria = {
+		core_creation = -0.15
 	}
 }
 
