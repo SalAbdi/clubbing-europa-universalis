@@ -14,6 +14,6 @@ tags={
 	"National Ideas"
 	"Map"
 }
-name="salmod"
+name="spearing"
 supported_version="1.32.2"
 remote_file_id="2827266228"
