@@ -896,7 +896,7 @@ katsina={
 		}
 	}
 	outgoing={
-		name="tunis"
+		name="maghreb"
 		path={
 			352 341 
 		}
@@ -905,7 +905,7 @@ katsina={
 		}
 	}
 	outgoing={
-		name="ethiopia"
+		name="somalia"
 		path={
 			2800 2772 
 		}
@@ -1313,7 +1313,7 @@ timbuktu={
 	location=1132
 	inland=yes
 	outgoing={
-		name="safi"
+		name="maghreb"
 		path={
 			1127 346 344 345 
 		}
