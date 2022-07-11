@@ -573,7 +573,7 @@ war_taxes = {
 }
 
 stability = {
-	global_trade_power = 0.01			#1% chance each step.
+	global_trade_power = 0			#1% chance each step.
 	global_spy_defence = 0.05				#-15 to +15% modifier
 }
 
@@ -761,7 +761,6 @@ army_tradition = {
 navy_tradition = {
 	recover_navy_morale_speed = 0.1
 	naval_morale = 0.25
-	trade_steering = 1.0
 	privateer_efficiency = 0.25
 	enuchs_influence = 0.1
 	mr_traders_influence = 0.1
@@ -998,7 +997,7 @@ over_extension = {
 }
 
 prestige = {
-	global_trade_power = 0.15			#+15/-15 total bonus from prestige.
+	global_trade_power = 0.05			#+15/-15 total bonus from prestige.
 	land_morale = 0.1
 	naval_morale = 0.1
 	global_spy_defence = 0.1				#+10/-10
@@ -1177,7 +1176,7 @@ streltsy_modifier = {
 
 power_projection = {
 	defensiveness = 0.1
-	global_trade_power = 0.2
+	global_trade_power = 0.1
 	prestige = 0.5
 	land_morale = 0.1
 	naval_morale = 0.1
@@ -1197,7 +1196,7 @@ trade_company_strong = {
 
 large_colonial_nation = {
 	merchants = 1
-	global_trade_power = 0.05
+	global_trade_power = 0
 	naval_forcelimit = 10
 	land_forcelimit = 5
 }
@@ -1221,7 +1220,6 @@ crown_colony_subject = {
 }
 
 private_enterprise_subject = {
-	global_ship_trade_power = 0.2
 	global_trade_goods_size_modifier = 0.2
 	naval_tradition_from_trade = 0.1
 	ship_power_propagation = 0.1
