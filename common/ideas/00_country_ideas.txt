@@ -2187,6 +2187,7 @@ ITA_ideas = {
 	}
 	path_to_citizenship = {
 		administrative_efficiency = 0.05
+		land_morale = 0.1
 	}
 }
 
