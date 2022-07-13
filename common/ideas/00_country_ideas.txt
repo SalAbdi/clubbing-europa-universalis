@@ -295,7 +295,7 @@ RUS_ideas = {
 SPA_ideas = {
 	start = {
 		land_morale = 0.15
-		artillery_fire = 0.5
+		artillery_power = 0.1
 	}
 	
 	bonus = {
@@ -1100,7 +1100,7 @@ BRA_ideas = {
 POR_ideas = {
 	start = {
 		colonists = 1
-		infantry_power = 0.1
+		land_morale = 0.15
 	}
 	
 	bonus = {
@@ -1134,7 +1134,7 @@ POR_ideas = {
 	}
 	por_royal_military_academy = {
 		defensiveness = 0.1
-		artillery_fire = 1
+		artillery_power = 0.1
 	}
 }
 
