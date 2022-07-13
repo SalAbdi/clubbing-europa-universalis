@@ -1,6 +1,6 @@
 #883 - Lipan
 
-is_city = yes
+
 culture = lipan
 religion = totemism
 capital = "Lipan"

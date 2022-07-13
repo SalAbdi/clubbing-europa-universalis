@@ -1,7 +1,7 @@
 # No previous file for Makandwewin
 
 
-is_city = yes
+
 culture = cheyenne
 religion = totemism
 capital = "Makandwewinni"

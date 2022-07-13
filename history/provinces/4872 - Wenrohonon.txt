@@ -1,6 +1,6 @@
 # No previous file for Wenrohonon
 
-is_city = yes
+
 culture = tionontate
 religion = totemism
 capital = "Wenrohonon"

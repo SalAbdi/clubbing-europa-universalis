@@ -1,7 +1,5 @@
 # 2016 - Bungi = Red River Country
 
-
-is_city = yes
 culture = nakota
 religion = totemism
 capital = "Bungi"

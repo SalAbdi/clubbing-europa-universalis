@@ -1,7 +1,5 @@
 # No previous file for Mdewakanton
 
-
-is_city = yes
 culture = dakota
 religion = totemism
 capital = "Mdewakanton"

@@ -1,7 +1,5 @@
 # 2022 - Haida
 
-
-is_city = yes
 culture = haida
 religion = totemism 
 capital = "Haida"

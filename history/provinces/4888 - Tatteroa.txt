@@ -1,7 +1,6 @@
 # No previous file for Tatteroa
 
 
-is_city = yes
 culture = shawnee
 religion = totemism
 capital = "Tatteroa"

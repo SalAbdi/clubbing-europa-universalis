@@ -1,6 +1,5 @@
 #879 - Apache
 
-is_city = yes
 
 culture = apache 
 religion = totemism

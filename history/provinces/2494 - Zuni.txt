@@ -1,6 +1,6 @@
 # No previous file for Zuni
 
-is_city = yes
+
 culture = pueblo
 religion = totemism
 capital = "Zuni"

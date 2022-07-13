@@ -1,5 +1,6 @@
 #913 - Fox
 
+
 culture = chiwere
 religion = totemism
 capital = "Fox"

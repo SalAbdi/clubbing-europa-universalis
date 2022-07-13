@@ -1,7 +1,6 @@
 # No previous file for Saone
 
 
-is_city = yes
 culture = dakota
 religion = totemism
 capital = "Saone"

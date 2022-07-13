@@ -1,6 +1,6 @@
 #933 - Catawba
 
-is_city = yes
+
 culture = catawba
 religion = totemism
 capital = "Catawba"

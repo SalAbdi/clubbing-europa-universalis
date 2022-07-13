@@ -1,6 +1,6 @@
 #1809 - Cheyenne
 
-is_city = yes
+
 culture = shoshone
 religion = totemism
 capital = "Cheyenne"

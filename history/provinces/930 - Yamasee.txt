@@ -1,7 +1,6 @@
 #930 - Yamasee
 
 
-is_city = yes
 culture = creek
 religion = totemism
 capital = "Yamasee"

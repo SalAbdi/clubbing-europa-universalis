@@ -1,7 +1,6 @@
 # No previous file for Kesagami
 
 
-is_city = yes
 culture = cree
 religion = totemism
 capital = "Kesagami"

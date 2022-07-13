@@ -1,7 +1,6 @@
 #907 - Dakota
 
 
-is_city = yes
 culture = dakota
 religion = totemism
 capital = "Dakota"

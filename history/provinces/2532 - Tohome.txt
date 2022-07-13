@@ -1,5 +1,4 @@
 
-is_city = yes
 culture = choctaw
 religion = totemism
 capital = "Tohome"

@@ -1,7 +1,6 @@
 # No previous file for Tionontate
 
 
-is_city = yes
 culture = tionontate
 religion = totemism
 capital = "Tionontate"

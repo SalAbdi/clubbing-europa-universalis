@@ -3,7 +3,6 @@
 culture = guamares
 religion = animism
 
-is_city = yes
 capital = "Pechichitane"
 trade_goods = gold
 hre = no

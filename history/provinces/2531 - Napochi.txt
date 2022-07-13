@@ -1,6 +1,6 @@
 # No previous file for Napochi
 
-is_city = yes
+
 culture = creek
 religion = totemism
 capital = "Napochi"
