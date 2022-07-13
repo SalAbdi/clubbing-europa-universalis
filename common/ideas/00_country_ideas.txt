@@ -997,6 +997,7 @@ VEN_ideas = {
 	}
 	DAL_language = {
 		num_accepted_cultures = 2
+		discipline = 0.05 
 	}
 	DAL_art_and_lit = {
 		global_institution_spread = 0.1
