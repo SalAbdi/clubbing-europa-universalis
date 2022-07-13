@@ -1,8 +1,8 @@
 # 4770 - Den Bosch/'s-Hertogenbosch.
 
-owner = BRB
-controller = BRB
-add_core = BRB
+owner = HOL
+controller = HOL
+add_core = HOL
 is_city = yes
 capital = "'s-Hertogenbosch"
 culture = dutch

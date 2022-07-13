@@ -1,8 +1,8 @@
 # 95 Breda - Principal cities: Breda
 
-owner = BRB
-controller = BRB
-add_core = BRB
+owner = HOL
+controller = HOL
+add_core = HOL
 is_city = yes
 capital = "Breda"
 culture = dutch
