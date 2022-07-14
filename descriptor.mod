@@ -14,6 +14,6 @@ tags={
 	"National Ideas"
 	"Map"
 }
-name="spearing"
+name="test"
 supported_version="1.32.2"
-remote_file_id="2827266228"
+path="C:/Users/Victr/Documents/Paradox Interactive/Europa Universalis IV/mod/test"
