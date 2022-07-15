@@ -623,7 +623,7 @@ exploration_ideas = {
 
 	bonus = {
 		cb_on_primitives = yes
-		colonist_placement_chance = 0.03
+		colonist_placement_chance = 0.1
 	}
 
 	quest_for_the_new_world	= {
@@ -632,14 +632,14 @@ exploration_ideas = {
 	}
 
 	colonial_ventures = {
-		colonists = 1
+		colonists = 2
 	}
 	
 	overseas_exploration = {
 		range = 0.5
 	}
 	land_of_opportunity = {
-		global_colonial_growth = 20
+		global_colonial_growth = 50
 	}
 	vice_roys  = {
 		global_tariffs = 0.10
@@ -974,7 +974,7 @@ expansion_ideas = {
 		years_of_nationalism = -5
 	}
 	faster_colonists = {
-		colonists = 1
+		colonists = 2
 		num_accepted_cultures = 1
 	}
 	improved_shipyards  = {
