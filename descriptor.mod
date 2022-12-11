@@ -14,6 +14,6 @@ tags={
 	"National Ideas"
 	"Map"
 }
-name="salmod"
+name="test"
 supported_version="1.32.2"
-path="C:/Users/Sal/Documents/Paradox Interactive/Europa Universalis IV/mod/clubbing-europa-universalis"
+path="C:/Users/Victr/Documents/Paradox Interactive/Europa Universalis IV/mod/test"
